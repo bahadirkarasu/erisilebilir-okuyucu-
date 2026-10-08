@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.doubleclick.net/*",
+      "resourceTypes": ["script", "subFrame", "image"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.googleadservices.com/*",
+      "resourceTypes": ["script", "subFrame", "image"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.googlesyndication.com/*",
+      "resourceTypes": ["script", "subFrame", "image"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.taboola.com/*",
+      "resourceTypes": ["script", "subFrame"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.outbrain.com/*",
+      "resourceTypes": ["script", "subFrame"]
+    }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*.adnxs.com/*",
+      "resourceTypes": ["script", "subFrame"]
+    }
+  }
+]
