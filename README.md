@@ -1,20 +1,20 @@
-# 📖 Erişilebilir Okuyucu – Üretim Düzeyi Chrome Uzantısı (SaaS Hazır)
+ Erişilebilir Okuyucu – Üretim Düzeyi Chrome Uzantısı (SaaS Hazır)
 
-Erişilebilir Okuyucu, web sayfalarını son derece gerçekçi yapay zeka Türkçe sesleriyle (Microsoft Edge Natural) sesli okuyan ve seçilen metinleri Google Gemini yapay zekasıyla analiz edebilen, **üretim düzeyinde (production-ready) ve SaaS mimarisine tam uyumlu** bir Chrome/Edge uzantısıdır.
-
----
-
-## 🚀 Öne Çıkan Gelişmiş Özellikler (MVP vs Production)
-
-*   **🔒 Üst Düzey API Güvenliği (Vekil Sunucu):** Gemini API anahtarınız artık uzantı dosyalarının içinde açıkta DURMAZ. `/backend` klasöründe yer alan Node.js/Express proxy sunucumuz sayesinde API anahtarınız sunucu tarafında güvenle saklanır.
-*   **🚫 Ağ Düzeyinde Yerel AdBlocker (declarativeNetRequest):** Reklamlar sayfaya hiç indirilmeden network katmanında engellenir. Bu sayede internet kotası harcanmaz ve sayfalar 5 kat daha hızlı yüklenir.
-*   **📌 Birebir (1-e-1) Canlı Paragraf Eşleme:** Metin çıkarma esnasında canlı DOM elemanları benzersiz veri indeksleriyle damgalanır. Tıkladığınız paragrafın okunması sırasındaki kaymalar (bir satır altını veya üstünü okuma) matematiksel olarak tamamen engellenmiştir.
-*   **🧠 Gemini AI Asistanı:** Sayfadan seçtiğiniz herhangi bir metin için otomatik olarak tam boyutta bir glassmorphism yapay zeka çekmecesi açılır ve metni özetlemeye başlar.
-*   **💾 UI Durum Koruyucu (State Persistence):** Uzantı kapatılıp tekrar açılsa dahi kaldığınız ekran (Okuma ayarları veya Yapay Zeka ekranı) ve en son aldığınız yapay zeka yanıtı hafızada korunur.
+Erişilebilir Okuyucu, web sayfalarını son derece gerçekçi yapay zeka Türkçe sesleriyle ) sesli okuyan ve seçilen metinleri Google Gemini yapay zekasıyla analiz edebilen, **üretim düzeyinde (production-ready) ve SaaS mimarisine tam uyumlu** bir Chrome/Edge uzantısıdır.
 
 ---
 
-## 📁 Klasör Yapısı
+Öne Çıkan Gelişmiş Özellikler (MVP vs Production)
+
+*    Üst Düzey API Güvenliği (Vekil Sunucu):** Gemini API anahtarınız artık uzantı dosyalarının içinde açıkta DURMAZ. `/backend` klasöründe yer alan Node.js/Express proxy sunucumuz sayesinde API anahtarınız sunucu tarafında güvenle saklanır.
+*    Ağ Düzeyinde Yerel AdBlocker (declarativeNetRequest):** Reklamlar sayfaya hiç indirilmeden network katmanında engellenir. Bu sayede internet kotası harcanmaz ve sayfalar 5 kat daha hızlı yüklenir.
+*    Birebir (1-e-1) Canlı Paragraf Eşleme:** Metin çıkarma esnasında canlı DOM elemanları benzersiz veri indeksleriyle damgalanır. Tıkladığınız paragrafın okunması sırasındaki kaymalar (bir satır altını veya üstünü okuma) matematiksel olarak tamamen engellenmiştir.
+*  Gemini AI Asistanı:** Sayfadan seçtiğiniz herhangi bir metin için otomatik olarak tam boyutta bir glassmorphism yapay zeka çekmecesi açılır ve metni özetlemeye başlar.
+*    UI Durum Koruyucu (State Persistence):** Uzantı kapatılıp tekrar açılsa dahi kaldığınız ekran (Okuma ayarları veya Yapay Zeka ekranı) ve en son aldığınız yapay zeka yanıtı hafızada korunur.
+
+---
+
+##  Klasör Yapısı
 
 ```
 erisibilir-okuyucu/
@@ -34,7 +34,7 @@ erisibilir-okuyucu/
 
 ---
 
-## 🛠️ Kurulum ve Çalıştırma
+##  Kurulum ve Çalıştırma
 
 ### Adım 1: Güvenli Backend Sunucusunu Yerelde Başlatın
 
@@ -58,5 +58,5 @@ Uzantının Yapay Zeka özelliklerini kullanabilmesi için yerel proxy sunucusun
 2.  Sağ üst köşedeki **"Geliştirici Modu"** (Developer Mode) anahtarını açın.
 3.  Sol üstteki **"Paketlenmemiş öğeyi yükle"** (Load unpacked) butonuna tıklayın.
 4.  Ana `erisibilir-okuyucu/` klasörünü seçin.
-5.  Uzantı tarayıcınıza başarıyla yüklendi! ✅
+5.  Uzantı tarayıcınıza başarıyla yüklendi! 
 
